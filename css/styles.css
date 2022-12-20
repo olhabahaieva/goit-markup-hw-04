@@ -249,9 +249,16 @@ footer a {
   display: flex;
   align-items: center;
   padding: 192px 0 192px 0;
-  background-color: var(--dark-background-color);
   color: var(--primary-background-color);
   text-align: center;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) ,
+    url(/images/people-office.jpeg);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1600px;
+
+  
 }
 
 .hero-title {
