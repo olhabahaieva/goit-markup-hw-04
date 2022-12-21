@@ -1,7 +1,7 @@
 /*Global Colors-Variables*/
 :root {
   --accent-color: #4d5ae5;
-  --accent-clicked-butoon: #404BBF;
+  --accent-clicked-butoon: #404bbf;
   --title-text-color: #2e2f42;
   --primary-text-color: #434455;
   --primary-background-color: #fff;
@@ -67,7 +67,8 @@ footer {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .site-navigation {
   display: flex;
@@ -100,7 +101,6 @@ footer {
 .button:hover,
 .button:focus {
   background-color: var(--accent-clicked-butoon);
-
 }
 
 .button-light {
@@ -112,11 +112,10 @@ footer {
   color: var(--accent-color);
   background-color: var(--secondary-background-color);
   cursor: pointer;
-  border: 1px solid #E7E9FC;
+  border: 1px solid #e7e9fc;
   padding: 12px 24px;
   border-radius: 4px;
   margin-right: 24px;
-  
 }
 
 .button-light:last-child {
@@ -128,7 +127,8 @@ footer {
   color: var(--primary-background-color);
   background-color: var(--accent-color);
   border: 1px solid var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /*Header-Logo*/
@@ -210,14 +210,14 @@ footer a {
   width: 264px;
 }
 
-.benefit-icons{
+.benefit-icons {
   display: flex;
   background-color: var(--secondary-background-color);
   height: 112px;
   margin-bottom: 8px;
 }
 
-.benefit-icon-1{
+.benefit-icon-1 {
   justify-content: center;
   align-items: center;
   width: 60px;
@@ -226,7 +226,7 @@ footer a {
   background-image: url(../images/antenna.svg);
 }
 
-.benefit-icon-2{
+.benefit-icon-2 {
   justify-content: center;
   align-items: center;
   width: 64px;
@@ -235,7 +235,7 @@ footer a {
   background-image: url(../images/clock.svg);
 }
 
-.benefit-icon-3{
+.benefit-icon-3 {
   justify-content: center;
   align-items: center;
   width: 64px;
@@ -244,7 +244,7 @@ footer a {
   background-image: url(../images/diagram.svg);
 }
 
-.benefit-icon-4{
+.benefit-icon-4 {
   justify-content: center;
   align-items: center;
   width: 64px;
@@ -302,7 +302,7 @@ footer a {
   color: var(--primary-background-color);
   text-align: center;
   background-image: linear-gradient(
-    to right,
+      to right,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
@@ -344,7 +344,8 @@ footer a {
   height: 380px;
   background-color: var(--primary-background-color);
   margin-right: 24px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -432,5 +433,4 @@ footer p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  
 }
