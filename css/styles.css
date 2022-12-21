@@ -381,7 +381,78 @@ footer p {
   margin-top: 16px;
 }
 
-/*Studio page begins*/
+.customers{
+  text-align: center;
+}
+
+.customer-logos{
+  display: flex;
+}
+
+.customer-logo-first{
+  display: flex;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+  width: 168px;
+  height: 88px;
+  padding: 16px 32px;
+}
+
+.customer-logo-1{
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 56px;
+  background-image: url(../images/logo-1.svg);
+  background-repeat: no-repeat;
+}
+
+.customer-logo-2{
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 56px;
+  background-image: url(../images/logo-2.svg);
+  background-repeat: no-repeat;
+}
+
+.customer-logo-3{
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 56px;
+  background-image: url(../images/logo-3.svg);
+  background-repeat: no-repeat;
+}
+
+.customer-logo-4{
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 56px;
+  background-image: url(../images/logo-4.svg);
+  background-repeat: no-repeat;
+}
+
+.customer-logo-5{
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 56px;
+  background-image: url(../images/logo-5.svg);
+  background-repeat: no-repeat;
+}
+
+.customer-logo-6{
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 56px;
+  background-image: url(../images/logo-6.svg);
+  background-repeat: no-repeat;
+}
+
+/*Studio page ends*/
 
 /*Portfolio page begins*/
 
