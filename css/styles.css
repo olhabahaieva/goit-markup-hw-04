@@ -385,8 +385,11 @@ footer p {
   text-align: center;
 }
 
-.customer-logos{
+.customers-logos{
   display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding-left: 0px;
 }
 
 .customer-logo-first{
