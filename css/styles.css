@@ -392,6 +392,10 @@ footer p {
   padding-left: 0px;
 }
 
+.customers-logos a{
+  display: block;
+}
+
 .customer-logo-first{
   display: flex;
   border: 1px solid #8E8F99;
@@ -400,6 +404,7 @@ footer p {
   height: 88px;
   padding: 16px 32px;
 }
+
 
 .customer-logo-1{
   align-items: center;
