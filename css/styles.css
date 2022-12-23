@@ -441,12 +441,19 @@ footer p {
   margin-top: 16px;
 }
 
+.footer-wrap{
+  display: flex;
+  gap: 120px;
+}
+
 .footer-social-icons{
   display: flex;
   gap: 16px;
+  padding-left: 0;
 }
 
 .footer-social-heading{
+  margin-top: 0;
   font-family: 'Roboto' sans-serif;
   font-weight: 700;
   font-size: 16px;
