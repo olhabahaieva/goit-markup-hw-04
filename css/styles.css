@@ -552,6 +552,7 @@ footer p {
   height: 56px;
   background-image: url(../images/logo-2.svg);
   background-repeat: no-repeat;
+  fill: var(--accent-color);
 }
 
 .customer-logo-3{
