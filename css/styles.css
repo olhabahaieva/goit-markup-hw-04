@@ -464,52 +464,19 @@ footer p {
 
 .footer-icon-1{
   display: flex;
-  width: 40px;
-  height: 40px;
+  padding: 8px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-icon-illustration{
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-icon-1:hover,
 .footer-icon-1:focus{
   background-color: rgba(49, 208, 170, 1);
-  cursor: pointer;
-}
-
-.footer-icon-instagram{
-  display: block;
-  margin: auto;
-  background-image: url(../images/instagram-footer.svg);
-  background-repeat: no-repeat;
-  width: 24px;
-  height: 24px;
-}
-
-.footer-icon-twitter{
-  display: block;
-  margin: auto;
-  background-image: url(../images/twitter-footer.svg);
-  background-repeat: no-repeat;
-  width: 24px;
-  height: 20px;
-}
-
-.footer-icon-facebook{
-  display: block;
-  margin: auto;
-  background-image: url(../images/facebook-footer.svg);
-  background-repeat: no-repeat;
-  width: 12px;
-  height: 24px;
-}
-
-.footer-icon-linkedin{
-  display: block;
-  margin: auto;
-  background-image: url(../images/linkedin-footer.svg);
-  background-repeat: no-repeat;
-  width: 24px;
-  height: 24px;
 }
 
 .customers{
@@ -535,14 +502,6 @@ footer p {
   fill: #8e8f99
 }
 
-.customer-logo:hover,
-.customer-logo:focus{
-  fill: var(--accent-color);
-}
-
-.customer-logo-first:hover{
- border: 1px solid var(--accent-color);
-}
 
 /*Studio page ends*/
 
