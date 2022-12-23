@@ -423,20 +423,21 @@ footer p {
   padding-left: 0px;
 }
 
-.customer-logo-first{
+.customer-logo-element{
   display: flex;
   border: 1px solid #8E8F99;
   border-radius: 4px;
   padding: 16px 32px;
 }
 
-.customer-logo-first:hover
-.customer-logo-first:focus{
+.customer-logo-element:hover,
+.customer-logo-element:focus{
   border: 1px solid var(--accent-color);
+  cursor: pointer;
 }
 
-.customer-logo-first:hover .customer-logo,
-.customer-logo:focus .customer-logo{
+.customer-logo-element:hover .customer-logo,
+.customer-logo-element:focus .customer-logo{
   fill: var(--accent-color);
 }
 
