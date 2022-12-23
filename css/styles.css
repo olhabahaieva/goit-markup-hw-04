@@ -531,64 +531,17 @@ footer p {
 }
 
 
-.customer-logo-1{
-  fill: #8e8f99;
-  align-items: center;
-  justify-content: center;
-  width: 104px;
-  height: 56px;
-  background-image: url(../images/logo-1.svg);
-  background-repeat: no-repeat;
+.customer-logo{
+  fill: #8e8f99
 }
 
-.customer-logo-1:hover{
+.customer-logo:hover,
+.customer-logo:focus{
   fill: var(--accent-color);
 }
 
-.customer-logo-2{
-  align-items: center;
-  justify-content: center;
-  width: 104px;
-  height: 56px;
-  background-image: url(../images/logo-2.svg);
-  background-repeat: no-repeat;
-  fill: var(--accent-color);
-}
-
-.customer-logo-3{
-  align-items: center;
-  justify-content: center;
-  width: 104px;
-  height: 56px;
-  background-image: url(../images/logo-3.svg);
-  background-repeat: no-repeat;
-}
-
-.customer-logo-4{
-  align-items: center;
-  justify-content: center;
-  width: 104px;
-  height: 56px;
-  background-image: url(../images/logo-4.svg);
-  background-repeat: no-repeat;
-}
-
-.customer-logo-5{
-  align-items: center;
-  justify-content: center;
-  width: 104px;
-  height: 56px;
-  background-image: url(../images/logo-5.svg);
-  background-repeat: no-repeat;
-}
-
-.customer-logo-6{
-  align-items: center;
-  justify-content: center;
-  width: 104px;
-  height: 56px;
-  background-image: url(../images/logo-6.svg);
-  background-repeat: no-repeat;
+.customer-logo-first:hover{
+ border: 1px solid var(--accent-color);
 }
 
 /*Studio page ends*/
