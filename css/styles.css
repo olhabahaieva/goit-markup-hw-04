@@ -48,6 +48,10 @@ ul {
   margin-bottom: 0;
 }
 
+img{
+  display: block;
+}
+
 /*list - turn of bullets*/
 .list {
   list-style: none;
