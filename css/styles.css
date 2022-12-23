@@ -430,6 +430,15 @@ footer p {
   padding: 16px 32px;
 }
 
+.customer-logo-first:hover
+.customer-logo-first:focus{
+  border: 1px solid var(--accent-color);
+}
+
+.customer-logo-first:hover .customer-logo,
+.customer-logo:focus .customer-logo{
+  fill: var(--accent-color);
+}
 
 .customer-logo{
   fill: #8e8f99
