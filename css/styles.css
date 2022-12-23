@@ -441,6 +441,42 @@ footer p {
   margin-top: 16px;
 }
 
+.footer-social-heading{
+  font-family: 'Roboto' sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-background-color);
+}
+
+.footer-icon-1{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-icon-instagram{
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/instagram-footer.svg);
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+}
+
+.footer-icon-twitter{
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/twitter-footer.svg);
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+}
+
 .customers{
   text-align: center;
 }
