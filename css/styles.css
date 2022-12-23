@@ -203,10 +203,10 @@ footer a {
 .benefits {
   display: flex;
   padding-left: 0;
+  gap: 24px
 }
 
 .benefits li {
-  margin-right: 24px;
   width: 264px;
 }
 
