@@ -223,34 +223,6 @@ footer a {
   width: 60px;
   height: 64px;
   margin: auto;
-  background-image: url(../images/antenna.svg);
-}
-
-.benefit-icon-2 {
-  justify-content: center;
-  align-items: center;
-  width: 64px;
-  height: 64px;
-  margin: auto;
-  background-image: url(../images/clock.svg);
-}
-
-.benefit-icon-3 {
-  justify-content: center;
-  align-items: center;
-  width: 64px;
-  height: 64px;
-  margin: auto;
-  background-image: url(../images/diagram.svg);
-}
-
-.benefit-icon-4 {
-  justify-content: center;
-  align-items: center;
-  width: 64px;
-  height: 64px;
-  margin: auto;
-  background-image: url(../images/astronaut.svg);
 }
 
 .benefits h3 {
@@ -266,6 +238,7 @@ footer a {
   margin-right: 0;
 }
 
+/*What we are doing*/
 .services {
   display: flex;
   padding-left: 0;
