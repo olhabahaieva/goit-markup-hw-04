@@ -616,7 +616,8 @@ footer p {
   padding-left: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 
 .portfolio-items h2 {
