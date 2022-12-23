@@ -441,6 +441,11 @@ footer p {
   margin-top: 16px;
 }
 
+.footer-social-icons{
+  display: flex;
+  gap: 16px;
+}
+
 .footer-social-heading{
   font-family: 'Roboto' sans-serif;
   font-weight: 700;
