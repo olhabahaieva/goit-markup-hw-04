@@ -455,13 +455,12 @@ footer p {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  
   background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-icon-instagram{
-  align-items: center;
-  justify-content: center;
+  display: block;
+  margin: auto;
   background-image: url(../images/instagram-footer.svg);
   background-repeat: no-repeat;
   width: 24px;
@@ -469,9 +468,27 @@ footer p {
 }
 
 .footer-icon-twitter{
-  align-items: center;
-  justify-content: center;
+  display: block;
+  margin: auto;
   background-image: url(../images/twitter-footer.svg);
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 20px;
+}
+
+.footer-icon-facebook{
+  display: block;
+  margin: auto;
+  background-image: url(../images/facebook-footer.svg);
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 24px;
+}
+
+.footer-icon-linkedin{
+  display: block;
+  margin: auto;
+  background-image: url(../images/linkedin-footer.svg);
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
