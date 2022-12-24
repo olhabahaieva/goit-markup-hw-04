@@ -430,24 +430,27 @@ footer p {
 }
 
 .customer-logo-element:hover,
-.customer-logo-element:focus {
+.customer-logo-element:focus{
   border: 1px solid var(--accent-color);
   cursor: pointer;
 }
 
+.customer-logo-first:hover,
+.customer-logo-first:focus {
+  cursor: pointer;
+  fill: currentColor;
+  color: var(--accent-color);
+}
+
 .customer-logo-element:hover .customer-logo,
 .customer-logo-element:focus .customer-logo {
-  fill: var(--accent-color);
+  color: var(--accent-color);
   cursor: pointer;
 }
 
-.customer-logo {
-  fill: #8e8f99;
-}
-
-.customer-logo svg:hover,
-.customer-logo svg:focus{
-  color: var(--accent-color);
+.customer-logo-first{
+  fill: currentColor;
+  color: #8e8f99;
 }
 
 /*Studio page ends*/
