@@ -364,6 +364,11 @@ footer a {
   border-radius: 50%;
 }
 
+.social-icons-link:hover,
+.social-icons-link:focus{
+  background-color: var(--accent-clicked-butoon);
+}
+
 /*Footer*/
 footer {
   display: flex;
