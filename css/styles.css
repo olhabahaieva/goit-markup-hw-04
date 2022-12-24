@@ -445,6 +445,11 @@ footer p {
   fill: #8e8f99;
 }
 
+.customer-logo svg:hover,
+.customer-logo svg:focus{
+  color: var(--accent-color);
+}
+
 /*Studio page ends*/
 
 /*Portfolio page begins*/
