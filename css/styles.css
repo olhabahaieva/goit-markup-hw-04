@@ -126,8 +126,8 @@ footer {
   margin-right: 0;
 }
 
-.button-light:hover,
-.buton-light:focus {
+.button-light:hover ,
+.button-light:focus {
   color: var(--primary-background-color);
   background-color: var(--accent-color);
   border: 1px solid var(--accent-color);
